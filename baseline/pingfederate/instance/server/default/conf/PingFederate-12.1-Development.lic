@@ -1,0 +1,15 @@
+ID=00690414
+WSTrustSTS=true
+OAuth=true
+SaasProvisioning=true
+Product=PingFederate
+Version=12.1
+EnforcementType=3
+Tier=Free
+IssueDate=2024-07-18
+ExpirationDate=2024-08-17
+GracePeriod=1
+DeploymentMethod=Docker
+Organization=SDG
+SignCode=FF1F
+Signature=302C021406A0924CF00F6B7C00679843CE51E3E3EC7D048B021472F9DB1E3C74172E5902C1A20C09C1E66AE1733E
