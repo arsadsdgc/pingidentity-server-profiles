@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urn:OpenIdConnectProviderPolicy enabled="true" trackUserSessionsForLogout="false" xmlns:urn="urn:pingidentity.com:pf:openid:connect:idp:policy"/>
+<urn:OpenIdConnectProviderPolicy enabled="true" defaultPolicyGroupId="DefaultOIDCPolicy" trackUserSessionsForLogout="false" xmlns:urn="urn:pingidentity.com:pf:openid:connect:idp:policy">
+    <urn:ProviderPolicyGroup policyId="DefaultOIDCPolicy" idTokenLife="5" includeSriInIdToken="false" includeUserInfoInIdToken="false" includeSHashInIdToken="false" includeX5tInIdToken="false" idTokenTypHeaderValue="" returnIdTokenOnRefreshGrant="false" reissueIdTokenHybridFlows="false" policyName="DefaultOIDCPolicy" accessTokenManagerId="DefaultAT" lastModified="2024-07-22T11:12:02.067Z">
+        <urn:UserInfoMapping>
+            <urn1:AttributeMap Name="sub" Type="Token" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
+                <urn1:ValueText>username</urn1:ValueText>
+            </urn1:AttributeMap>
+            <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        </urn:UserInfoMapping>
+        <urn:scopeAttributesMap/>
+        <urn:attributeContractInclusionMap/>
+        <urn:ExtendedAttributesAdditionalProperties/>
+    </urn:ProviderPolicyGroup>
+</urn:OpenIdConnectProviderPolicy>
