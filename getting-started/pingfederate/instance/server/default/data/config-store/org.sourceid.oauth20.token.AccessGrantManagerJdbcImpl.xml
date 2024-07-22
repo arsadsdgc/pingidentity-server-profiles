@@ -2,7 +2,7 @@
 <c:config xmlns:c="http://www.sourceid.org/2004/05/config">
 
     <!-- Data store ID -->
-    <c:item name="PingFederateDSJNDIName">PFDefaultDS</c:item>
+    <c:item name="PingFederateDSJNDIName">JDBC-DAAC4C45A39550B90643D6998B3FC8A1EB47C3F3</c:item>
 
     <!-- Encrypt user attributes that will be stored in the database? -->
     <c:item name="EncryptUserAttributes">true</c:item>

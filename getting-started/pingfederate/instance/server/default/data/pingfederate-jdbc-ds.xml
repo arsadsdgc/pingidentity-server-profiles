@@ -7,7 +7,7 @@
         <connection-url>jdbc:mysql://mysql:3306/test</connection-url>
         <driver-class>com.mysql.cj.jdbc.Driver</driver-class>
         <user-name>pingsql</user-name>
-        <password>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMi4xLjAuNCJ9..oegdWpv6iIOrc8YnmXlepg.tBijhKtVUrStxFa-Akeg7g.QafwQbizrE_u08HqlJK8cQ</password>
+        <password>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMi4xLjAuNCJ9..o2cOuCPFwnzHINIyXEEL6A.fGutC_CKRVPmn1Dn296-Yg.SXVqoCVUT-h-3cQtdoGsVQ</password>
         <min-pool-size>10</min-pool-size>
         <max-pool-size>100</max-pool-size>
         <blocking-timeout-millis>5000</blocking-timeout-millis>
@@ -20,13 +20,32 @@
         <lastModified>2024-07-22T10:33:34.878Z</lastModified>
     </local-tx-datasource>
     <local-tx-datasource maskAttributeValues="false">
+        <description>pingAccessGrant</description>
+        <name>pingAccessGrant</name>
+        <jndi-name>JDBC-DAAC4C45A39550B90643D6998B3FC8A1EB47C3F3</jndi-name>
+        <connection-url>jdbc:mysql://mysql:3306/pingAccessGrant</connection-url>
+        <driver-class>com.mysql.cj.jdbc.Driver</driver-class>
+        <user-name>pingsql</user-name>
+        <password>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMi4xLjAuNCJ9..PVYPDiwI-ftbLdGu-y2XsQ.8M8JpbnxF881L-ZG4mNtfA.yBRkcSn8AKdi1BhDiyy-4g</password>
+        <min-pool-size>10</min-pool-size>
+        <max-pool-size>100</max-pool-size>
+        <blocking-timeout-millis>5000</blocking-timeout-millis>
+        <idle-timeout-minutes>5</idle-timeout-minutes>
+        <ping-db-type>Custom</ping-db-type>
+        <allow-multi-value-attributes>true</allow-multi-value-attributes>
+        <connectionTagList>
+            <tagEntry connection-url="jdbc:mysql://mysql:3306/pingAccessGrant" tags=""/>
+        </connectionTagList>
+        <lastModified>2024-07-22T12:57:36.997Z</lastModified>
+    </local-tx-datasource>
+    <local-tx-datasource maskAttributeValues="false">
         <description>ProvisionerDS (sa)</description>
         <name>ProvisionerDS (sa)</name>
         <jndi-name>ProvisionerDS</jndi-name>
         <connection-url>jdbc:hsqldb:${pf.server.data.dir}${/}hypersonic${/}ProvisionerDefaultDB;hsqldb.lock_file=false</connection-url>
         <driver-class>org.hsqldb.jdbcDriver</driver-class>
         <user-name>sa</user-name>
-        <password>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMi4xLjAuNCJ9..9lpb1g2I4p3vZjeB_ZKMLg.d0REMss_XfDAAUlURTWwTg.P5l-JCPLo83INj9EB4g1Vg</password>
+        <password>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMi4xLjAuNCJ9..QAK7DjPimRYO2i5ZN9qFVA.wi60FhOElWeuEXDNWxordA.AaaJ80kWxyOXz5pbkv5QqQ</password>
         <min-pool-size>10</min-pool-size>
         <max-pool-size>100</max-pool-size>
         <blocking-timeout-millis>5000</blocking-timeout-millis>
