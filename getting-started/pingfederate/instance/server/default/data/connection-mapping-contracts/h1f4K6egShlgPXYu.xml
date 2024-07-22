@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c2c:c2cContract id="h1f4K6egShlgPXYu" name="SimplePolicyContract" lastModified="2024-07-22T11:38:33.470Z" xmlns:c2c="http://pingidentity.com/2014/10/c2cContracts">
+    <c2c:extendedAttributes>
+        <c2c:attr name="username"/>
+    </c2c:extendedAttributes>
+</c2c:c2cContract>
